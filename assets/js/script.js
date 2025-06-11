@@ -100,7 +100,7 @@ function showSentimentResult() {
 
   showLoading()
 
-  fetch("http://127.0.0.1:8000/predict", {
+  fetch("https://agusswardanaa-api-blue-voice.hf.space/predict", {
     method: "POST",
     headers: {
       "Content-Type": "application/json"
