@@ -28,55 +28,38 @@
 </head>
 
 <body id="top">
-
-  <!-- 
-    - #HEADER
-  -->
-
+  <!-- HEADER -->
   <header class="header-non-home header" data-header>
-
     <div class="overlay" data-overlay></div>
-
     <div class="header-bottom">
       <div class="container">
-
-        <!-- LOGO -->
         <a href="/" class="logo">
-          <img src="../assets/images/blue-voice-header-logo-no-motto.png" alt="Blue Voice logo">
+          <img src="../assets/images/blue-voice-header-logo-no-motto.png" alt="Blue Voice logo" />
         </a>
-
-        <!-- NAV OPEN BUTTON (HAMBURGER) -->
         <button class="nav-open-btn" aria-label="Open Menu" data-nav-open-btn style="color: var(--bright-navy-blue);">
           <ion-icon name="menu-outline"></ion-icon>
         </button>
-
-        <!-- NAVBAR -->
         <nav class="navbar" data-navbar>
           <div class="navbar-top">
-
-            <!-- CLOSE BUTTON -->
             <button class="nav-close-btn" aria-label="Close Menu" data-nav-close-btn>
               <ion-icon name="close-outline"></ion-icon>
             </button>
-
           </div>
-
           <ul class="navbar-list">
             <li>
-              <a href="/" class="navbar-link" data-nav-link>Home</a>
+              <a href="/" class="navbar-link-non-home" data-nav-link>Home</a>
             </li>
             <li>
-              <a href="../dashboard" class="navbar-link" data-nav-link>Dashboard</a>
+              <a href="/dashboard" class="navbar-link-non-home" data-nav-link>Dashboard</a>
             </li>
             <li>
-              <a href="../sentiment" class="navbar-link" data-nav-link>Sentiment Prediction</a>
+              <a href="/sentiment" class="navbar-link-non-home" data-nav-link>Sentiment Prediction</a>
             </li>
             <li>
-              <a href="../about" class="navbar-link" data-nav-link>About Us</a>
+              <a href="/about" class="navbar-link-non-home" data-nav-link>About Us</a>
             </li>
           </ul>
         </nav>
-
       </div>
     </div>
   </header>
